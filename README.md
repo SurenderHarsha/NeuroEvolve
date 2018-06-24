@@ -34,11 +34,13 @@ This allows us to edit the neural network later on to add new layers , nodes. Th
 Here are a few neural network edit functions which are self-explanatory.
 Layer numbers start from zero and exclude input and output layer.
 
-` neuralnet.add_node(layer_number)`
-` neuralnet.remove_node(layer_number) `
-` neuralnet.remove_layer(layer_number) `
-` neuralnet.change_input(Number_of_inputs) `
-` neuralnet.change_output(Number_of_outputs) `
+```
+ neuralnet.add_node(layer_number)
+ neuralnet.remove_node(layer_number) 
+ neuralnet.remove_layer(layer_number) 
+ neuralnet.change_input(Number_of_inputs) 
+ neuralnet.change_output(Number_of_outputs) 
+```
 
 After editing , the function completed_network has to be called to lock it again before any operations are performed.
 
