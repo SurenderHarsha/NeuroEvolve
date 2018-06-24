@@ -47,6 +47,7 @@ After editing , the function completed_network has to be called to lock it again
 ##### Weights
 
 ` neuralnet.init_rand_weights() `
+
 This function initialises the weights of neural network with a uniform distribution of (-1,1).
 
 ` neuralnet.get_weights() `
@@ -54,6 +55,7 @@ This function initialises the weights of neural network with a uniform distribut
 This function returns the current weights of the neural network.
 
 ` neuralnet.get_weight_count() `
+
 This function returns the number of total weights needed for the neural network to run, we use this count to create our own weights.
 
 ` neuralnet.set_weights(weights) `
